@@ -69,6 +69,27 @@ body {
 }
 
 
+#clock{
+   transform: scale(2);
+}
 
+@media only screen and (max-width: 540px) {
+   #clock{
+      transform: scale(1.5);
+   }
+ }
+
+
+ @media only screen and (max-width: 400px) {
+   #clock{
+      transform: scale(1.1);
+   }
+ }
+
+ @media only screen and (max-width: 300px) {
+   #clock{
+      transform: scale(1);
+   }
+ }
 /* navbar */
 
